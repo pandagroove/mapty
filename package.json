@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "parcel": "^2.3.2"
+  },
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "Log your workouts on the map!",
+  "default": "index.html",
+  "targets": {
+    "main": false
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Johann VIgroux",
+  "license": "ISC"
+}
